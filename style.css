@@ -1,0 +1,151 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hider{
+    z-index: 1;
+    position: relative;
+    background-color: #faac94c9;
+    outline: none;
+    border: 1px solid #ff9a7b;
+    color: red;
+}
+
+#hider:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+h1{
+    margin: 30vh auto;
+    width: fit-content;
+    font-size: 100px;
+    transition: color 0.5s, font-size 0.5s, text-shadow 0.5s;
+    transform-style: preserve-3d;
+    
+
+}
+.random:hover{
+    cursor: pointer;
+    font-size: 105px;
+    color: #bd6666;
+    text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+}
+
+.range{
+    position: absolute;
+    z-index: 0;
+    top: 1%;
+    width: 15%; 
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #faac94c9;
+    border-bottom-right-radius: 15px;
+
+ 
+}
+.range h4{
+    text-align: center;
+    font-size: 18px;
+}
+.range p{
+    transition: color 0.3s, font-size 0.3s;
+    user-select: none;
+    text-transform: uppercase;
+}
+.range p:hover{
+    color: red;
+    cursor: pointer;
+ 
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+}
+
+.wrapper input{
+margin-top: 5px;
+padding: 2%;
+width: 60%;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+outline: none;
+}
+
+
+.min, .max{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 25%;
+}
+
+.random_img, .random_words{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 58%;
+    margin-top: 2%;
+    margin-left: 14%;
+}
+
+.quote_wrapper{
+    position: relative;
+   
+ 
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 40px;
+    color:rgba(39, 39, 184, 0.952);
+    text-align: center;
+    background-color: rgba(168, 93, 93, 0.575);
+    bottom: 50%;
+    
+}
+
+
+
+/*полоса прокрутки*/
+::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:5px;
+    height:0px
+    }
+    
+    ::-webkit-scrollbar-track {
+    background-color:#ecedee
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color:#6dc0c8;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover{
+    background-color:#56999f;
+    }
+    
+    ::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:4px;
+    height:0px
+    }
+    
+    ::-webkit-scrollbar{
+    width: 4px;
+    }

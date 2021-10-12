@@ -86,7 +86,7 @@ document.querySelector("h1").onclick=function(){
 
 function random_pic(){
     let body = document.querySelector("body");
-    let r=getRandomInRange(1,251);
+    let r=getRandomInRange(10,72);
     body.style.backgroundImage = "url('images/img\ \("+r+"\).jpg')";
 }
 
